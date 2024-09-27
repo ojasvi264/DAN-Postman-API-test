@@ -15,7 +15,7 @@ Observe the **Response** tab for status code (200 OK), response time, and size. 
 ### 1. Viewing in Postman
 - Open **Postman**.
 - Click on the **Import** button (usually located in the top left corner).
-- Select the **Upload Files** tab and choose the JSON file you exported.
+- Select the **Upload Files** tab and choose the JSON file(`DAN_API.json`) from the directory where you have cloned this project.
 - Click **Open**. Postman will create a collection with the same structure as in the JSON file.
 
 ### 2. Viewing in a Text Editor
