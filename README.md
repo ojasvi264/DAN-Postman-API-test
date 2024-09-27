@@ -46,8 +46,8 @@ There are various online JSON viewers that can format the JSON data for easier r
 This template contains the API requests for all the above modules to test whether the response is responded back successfully or not.
 
 ## Points to note
-- Here, I have tested the API using the local serve(localhost).
-- There are some parent tables that can store, update and delete its parent table.
+- Here, I have tested the API using the local serve (localhost).
+- There are some parent tables that can store, update and delete its child table.
 - Also, Please log in before testing any other modules. Otherwise, you might get unauthorized response.
 
 
