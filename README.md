@@ -1,7 +1,7 @@
 # DAN API TEST USING POSTMAN
 
 ## Introduction
-This template guides you through CRUD operations (GET, POST, PUT, DELETE) to test the API request for all the DAN modules.
+This template guides you through CRUD operations (GET, POST, PUT, DELETE) to test the API request for all the **DAN** modules.
 
 ## How to use this template
 ### 1. Send requests
