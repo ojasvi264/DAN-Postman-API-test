@@ -1976,12 +1976,76 @@
 			"name": "Line",
 			"item": [
 				{
-					"name": "Admin Line Login",
-					"item": []
+					"name": "Admin Line User",
+					"item": [
+						{
+							"name": "Create Admin Line User",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"admin@test.com\",\r\n    \"password\": \"password\",\r\n    \"channel_user_id\": \"Ud71ff131f78563cc857e4a1210800242\",\r\n    \"nonce\": \"22222\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/auth/admin/line-login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"auth",
+										"admin",
+										"line-login"
+									]
+								}
+							},
+							"response": []
+						}
+					]
 				},
 				{
-					"name": "Client Line Login",
-					"item": []
+					"name": "Client Line User",
+					"item": [
+						{
+							"name": "Create Client Line User",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"admin_client@dan.com\",\r\n    \"password\": \"password\",\r\n    \"channel_user_id\": \"Ud71ff131f78563cc857e4a1210800264\",\r\n    \"nonce\": \"11111\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/auth/client/line-login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"auth",
+										"client",
+										"line-login"
+									]
+								}
+							},
+							"response": []
+						}
+					]
 				},
 				{
 					"name": "Get All Line Users",
