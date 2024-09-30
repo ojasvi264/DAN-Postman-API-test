@@ -49,5 +49,7 @@ This template contains API requests for all the above modules to test whether th
 - The API has been tested using a local server (localhost).
 - There are some parent tables that can store, update and delete their child table.
 - Please log in before testing any other modules. Otherwise, you might get unauthorized response.
+- Please be aware of the roles and permissions each user has. Some modules might not be accessible to certain users. For example, to access client's **Application** and **Application Form Field** modules, be sure to log in as a User with the role **Client**.
+- There are requests for downloading documents. If the document field is empty, the response might show some JSON formatted empty data.
 
 
