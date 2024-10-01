@@ -936,9 +936,16 @@
 				},
 				{
 					"name": "Application Top Page",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
 						"url": {
 							"raw": "http://localhost:3000/api/applications/top-page",
 							"protocol": "http",
@@ -2415,6 +2422,38 @@
 										"applications",
 										"61",
 										"download"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Client Application Top Page",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/client/applications/top-page?order_by=deadline&direction=ASC",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"client",
+										"applications",
+										"top-page"
+									],
+									"query": [
+										{
+											"key": "order_by",
+											"value": "deadline"
+										},
+										{
+											"key": "direction",
+											"value": "ASC"
+										}
 									]
 								}
 							},
