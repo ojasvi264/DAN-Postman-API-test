@@ -41,6 +41,9 @@ There are various online JSON viewers that can format the JSON data for easier r
 - Form Template
 - Form Template Field
 - Line
+- Client
+    - Application
+    - Application Form Field
 
 ## Conclusion
 This template contains API requests for all the above modules to test whether the responses are successful.
