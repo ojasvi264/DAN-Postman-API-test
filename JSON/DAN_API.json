@@ -811,7 +811,7 @@
 			]
 		},
 		{
-			"name": "application",
+			"name": "Application",
 			"item": [
 				{
 					"name": "Get All Applications",
